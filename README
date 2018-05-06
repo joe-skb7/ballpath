@@ -1,0 +1,12 @@
+BallPath
+--------
+
+Console util for finding the shortest path at "ColorLines" game map.
+
+For building instructions see INSTALL.
+Documentation can be found at doc/.
+Sample input files available at tests/.
+
+
+--
+Written by Sam Protsenko <joe.skb7@gmail.com>

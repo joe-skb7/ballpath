@@ -1,0 +1,25 @@
+Build dependencies:
+- CMake (2.8+)
+- GCC 4.6+, make (or mingw32 on Windows)
+
+
+For building BallPath project use commands shown below.
+
+Unix
+----
+
+$ mkdir buid
+$ cd build
+$ cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/tmp/ballpath ..
+$ make -j2
+$ make install
+
+
+Windows (using MinGW)
+---------------------
+
+$ mkdir buid
+$ cd build
+$ cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=C:/Temp/ballpath ..
+$ mingw32-make -j2
+$ mingw32-make install
